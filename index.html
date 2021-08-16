@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="with=device-width,initial-scale=1.0">
+   <title> Dashboard </title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+   <section class="header">
+      <nav>
+         <a href="prjct.html"><img src="images/background.png"></a>
+         <div class="nav-links" id="navLinks">
+            <i id="close" title="Close" class="material-icons" onclick="hideMenu()">close</i>
+            <ul>
+               <li><a href="">HOME</a></li>
+               <li><a href="">ABOUT US</a></li>
+               <li><a href="">COURSES</a></li>
+               <li><a href="">BLOG</a></li>
+               <li><a href="">CONTACT</a></li>
+            </ul>
+         </div>
+         <i id="open" title="Menu" class="material-icons" onclick="showMenu()">menu</i>
+      </nav>
+      <div class="textbox">
+         <h1><b>BIRLA INSTITUTE OF TECHNOLOGY & SCIENCE</b></h1>
+         <h3>PILANI | GOA | HYDERABAD</h3>
+         <a href="login.html" class="hero-btn"><b>Login</b></a>
+         <br>
+         <hr size="5" color="red"/>
+         <marquee behavior="alternate" direction="right"><font size="4" color="yellow" ><b>Admissions opened for 2020 batch</b></font></marquee>
+      </div>
+   </section>
+
+<!----------course--------->
+
+   <section class="course">
+      <h1>COURSES</h1>
+      <div class="row">
+          <div class="co-col">
+             <h3>B.TECH</h3> 
+             <ul type ="none">
+                <li> C.S.E </li>
+                <li> E.C.E </li>
+                <li> E.E.E </li>
+                <li> E.N.I </li>
+                <li> CHEMICAL </li>
+                <li> MECH </li>
+                <li> CIVIL </li>
+            </ul>
+          </div>
+          <div class="co-col">
+             <h3>M.TECH</h3>
+             <ul type ="none">
+                <li> C.S.E </li>
+                <li> E.C.E </li>
+                <li> E.E.E </li>
+                <li> CHEMICAL </li>
+            </ul>
+          </div>
+          <div class="co-col">
+             <h3>DUAL DEGREE</h3>
+             <ul type ="none">
+                <li> ECONOMICS </li>
+                <li> MATHS </li>
+                <li> PHYSICS </li>
+                <li> CHEMISTRY </li>
+                <li> BIOLOGY </li>
+            </ul>
+          </div>
+     </div>
+   </section>
+<!----------campus--------->
+ 
+   <section class="campus">
+      <h1>BITS COLLEGES</h1>
+      <p>PILANI | GOA | HYDERABAD</p> 
+      <div class="row">
+          <div class="campus-col">
+             <img src="images/BITS-Pilani.jpg">
+             <div class="layer">
+                <h3>PILANI</h3>
+             </div>
+          </div>
+          <div class="campus-col">
+             <img src="images/goa.jpg">
+             <div class="layer">
+                <h3>GOA</h3>
+             </div>
+          </div>
+          <div class="campus-col">
+             <img src="images/hyd.jpg">
+             <div class="layer">
+                <h3>HYDERABAD</h3>
+             </div>
+          </div>
+     </div>
+   </section>
+<!----------course--------->
+
+   <section class="cta">
+      <h1>Enroll here for Online courses<br>Anywhere from the world!</h1>
+      <a href="" class="hero-btn"> Click here to Enroll</a>
+   </section>
+
+<!----------footer--------->
+
+   <section class="footer">
+      <h1>About us</h1>
+      <p> BITS-Pilani is a private univeristy located in pilani, rajasthan.
+          This university is known for its Remarkable placements. </p>
+   </section>
+
+
+   <script>
+      var navLinks=document.getElementById("navLinks");
+      function hideMenu(){
+         navLinks.style.right="-160px";
+      }
+      function showMenu(){
+         navLinks.style.right="0";
+      }
+
+   </script>
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
